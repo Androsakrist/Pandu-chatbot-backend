@@ -1,0 +1,365 @@
+{
+    "intents": [
+        {
+            "tag": "undefined",
+            "patterns": [""],
+            "responses": [
+                "Sorry, we do not have the data you asked for. If you are looking for your embassy, you may check the in this link\nhttps://embassies.net/indonesia\nOr you may call 112 for general emergency"
+            ]
+        },
+        {
+            "tag": "general emergencies",
+            "patterns": [
+                "police",
+                "cops",
+                "911",
+                "crime",
+                "robbery",
+                "mugged",
+                "attacked",
+                "rape",
+                "raped",
+                "molested",
+                "stabbed",
+                "threatened",
+                "threat",
+                "beaten up",
+                "theft",
+                "thief",
+                "burglary",
+                "stolen",
+                "scam"
+            ],
+            "responses": ["Please call 110 or 112 "]
+        },
+        {
+            "tag": "transportation",
+            "patterns": ["taxi", "transport", "cab", "cabs"],
+            "responses": [
+                "Call (0361) 701111 or (0361) 8498008 for Bluebird taxi"
+            ]
+        },
+        {
+            "tag": "medical",
+            "patterns": [
+                "ambulance",
+                "hospital",
+                "injured",
+                "icu",
+                "intensive care units",
+                "wounded",
+                "faint",
+                "paramedic",
+                "first aid",
+                "accident"
+            ],
+            "responses": [
+                "Please call 118  or 119. Or you can ask locals using keyword PUSKESMAS or IGD"
+            ]
+        },
+        {
+            "tag": "blood transfusion",
+            "patterns": ["blood", "blood transfusion", "blood donor"],
+            "responses": ["Please call 021- 4207051 for PMI"]
+        },
+        {
+            "tag": "natural disasters",
+            "patterns": [
+                "flood",
+                "volcano",
+                "tsunami",
+                "earthquake",
+                "evacuation"
+            ],
+            "responses": [
+                "Please call 112 or 115 for SAR (Search and Rescue) and call 129 for evacuation post"
+            ]
+        },
+        {
+            "tag": "initial start",
+            "patterns": ["help", "hello", "start"],
+            "responses": ["Please shortly describe your emergency"]
+        },
+        {
+            "tag": "food poisoning",
+            "patterns": [
+                "food poisoning",
+                "poison",
+                "poisoning",
+                "harmful substances"
+            ],
+            "responses": [
+                "Please call 1500-533 or SMS to number 0812-1999-9533"
+            ]
+        },
+        {
+            "tag": "fire",
+            "patterns": [
+                "fire",
+                "smoke",
+                "unreachable",
+                "stuck",
+                "explosive",
+                "snake"
+            ],
+            "responses": ["Please call your local fire department or 113"]
+        },
+        {
+            "tag": "drowning",
+            "patterns": ["drown", "drowning", "near-drowning"],
+            "responses": [
+                "First, move the person to a safe place out of water.\nSecond, look for someone who can help or call 112. While you're at it, Try to call the drowning person and shake their shoulders to make sure they are responding.\nIf you're alone, follow the next steps. Check if the person is breathing or not by feel the mouth and nose and the chest\nIf the person is breathing: Place them in the recovery position and warm them up with clothes or blankets. Change their wet clothes while waiting for the ambulance.\nIf the person is not breathing, please elevate the head by placing a hand on the forehead and another hand down the chin and lifting it gently to clear the airway.\nCheck their pulse by placing two fingers on the windpipe for 10 seconds.\nPerform CPR if you there is no pulse. Starting with carefully place the person on their back.\nPlace the heel of one hand on the center of the chest at the nipple line. You can also push with one hand on top of the other.\nPress down at least 2 inches. Make sure not to press on ribs.\nDo chest compressions only, at the rate of 100-120 per minute or more. Let the chest rise completely between pushes.\nCheck to see if the person has started breathing."
+            ]
+        },
+        {
+            "tag": "missing person",
+            "patterns": ["missing", "rescue", "search"],
+            "responses": ["Please call 112 or 115 for Search and Rescue"]
+        },
+        {
+            "tag": "power",
+            "patterns": [
+                "electric",
+                "electrical",
+                "power",
+                "power failure",
+                "power outage"
+            ],
+            "responses": ["Please call 123 for PLN"]
+        },
+        {
+            "tag": "covid",
+            "patterns": ["covid", "covid-19"],
+            "responses": ["Please call 119 for Covid-19 Hotline in Indonesia"]
+        },
+        {
+            "tag": "embassy",
+            "patterns": ["embassy", "consulate", "diplomatic", "passport"],
+            "responses": ["Please tell us which nationality?"]
+        },
+        {
+            "tag": "Australia",
+            "patterns": [
+                "australia",
+                "australia embassy",
+                "australia consulate",
+                "australia diplomatic",
+                "embassy of Australia"
+            ],
+            "responses": [
+                "Contact +62-21-2550-5555 for Australian Embassy or +62361-2000-100 for Consulate General of Australia in Denpasar"
+            ]
+        },
+        {
+            "tag": "Malaysia",
+            "patterns": [
+                "malaysia",
+                "embassy of malaysia",
+                "malaysia embassy",
+                "consulate general of malaysia in medan",
+                "malaysia consulate",
+                "malaysia diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Malaysia at +62-21-522-4947 or Consulate General of Malaysia in Medan at +62-61-4531-342"
+            ]
+        },
+        {
+            "tag": "China",
+            "patterns": [
+                "china",
+                "cina",
+                "china",
+                "embassy of the people's republic of china",
+                "embassy of china",
+                "中国大使馆",
+                "中国驻登巴萨总领事馆",
+                "consulate general of china in denpasar",
+                "china consulate"
+            ],
+            "responses": [
+                "Contact Embassy of the People's Republic of China at +62-21-576-1039 or Consulate General of China in Denpasar at (0361)-239-901 or 0361-239902"
+            ]
+        },
+        {
+            "tag": "Singapore",
+            "patterns": [
+                "embassy of the republic of singapore",
+                "singapore",
+                "singapore diplomatic"
+            ],
+            "responses": ["Contact Embassy of Singapore at +62-21-2995-0400"]
+        },
+        {
+            "tag": "Timor-Leste",
+            "patterns": [
+                "timor-leste",
+                "embassy of timor-leste",
+                "timor-leste diplomatic"
+            ],
+            "responses": ["Contact Embassy of Timor-Leste at +62-21-57940102"]
+        },
+        {
+            "tag": "India",
+            "patterns": [
+                "india",
+                "india embassy",
+                "embassy of india",
+                "india consulate",
+                "consulate general of india in denpasar"
+            ],
+            "responses": [
+                "Contact Embassy of India at +62-21-2522299 or Consulate of India in Denpasar +62-361-259-502"
+            ]
+        },
+        {
+            "tag": "Japan",
+            "patterns": [
+                "japan",
+                "japan consulate",
+                "japan diplomatic",
+                "japan embassy",
+                "在インドネシア日本国大使館",
+                "在デンパサール日本国総領事館"
+            ],
+            "responses": [
+                "Contact Embassy of Japan at +62-21-3192-4308 or Consulate General of Japan in Denpasar at +62-361-227628"
+            ]
+        },
+        {
+            "tag": "United States",
+            "patterns": [
+                "united states",
+                "the united states",
+                "united states embassy",
+                "united states consulate",
+                "united states diplomatic"
+            ],
+            "responses": [
+                "Contact +62-2134-359-000 for Embassy of United States or +62361-233-605, (62)361-246-859 for Consulate Agency of United States in Denpasar"
+            ]
+        },
+        {
+            "tag": "South Korea",
+            "patterns": [
+                "south korea",
+                "embassy of south korea",
+                "south korea embassy",
+                "south korea diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of South Korea at +62-21-2967-2555 or +62-811-852-446"
+            ]
+        },
+        {
+            "tag": "United Kingdom",
+            "patterns": [
+                "united kingdom",
+                "the united kingdom",
+                "united kingdom embassy",
+                "United Kingdom consulate",
+                "United Kingdom diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of United Kingdom or Consulate of the United Kingdom at +62-21-2356-5200 "
+            ]
+        },
+        {
+            "tag": "Russia",
+            "patterns": ["russia", "russia embassy", "russia diplomatic"],
+            "responses": ["Contact Embassy of Russia at +62-21-522-2912"]
+        },
+        {
+            "tag": "Netherlands",
+            "patterns": [
+                "netherlands",
+                "netherlands embassy",
+                "netherlands consulate",
+                "netherlands diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Netherlands at +6221-524-8200 or Honorary Consulate of Netherlands in Bali at +62-361-761-502"
+            ]
+        },
+        {
+            "tag": "Philippines",
+            "patterns": [
+                "philippines",
+                "philippines embassy",
+                "philippines diplomatic"
+            ],
+            "responses": ["Contact Embassy of Philippines at +62-21-310-0334"]
+        },
+        {
+            "tag": "Deutsch",
+            "patterns": [
+                "deutsch",
+                "germany",
+                "germany embassy",
+                "germany consulate",
+                "australia diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Germany at +6221-3985-5000 or Consulate General of Japan in Denpasar at +62361-227628"
+            ]
+        },
+        {
+            "tag": "France",
+            "patterns": ["france", "france embassy", "france diplomatic"],
+            "responses": ["Contact Embassy of France +6221-2355-7600"]
+        },
+        {
+            "tag": "Switzerland",
+            "patterns": [
+                "switzerland",
+                "switzerland embassy",
+                "switzerland consulate",
+                "switzerland diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Switzerland in Jakarta at +6221-525-6061 or Honorary Consulate of Switzerland in Bali at +62361-264-149"
+            ]
+        },
+        {
+            "tag": "Saudi Arabia",
+            "patterns": [
+                "saudi arabia",
+                "saudi arabia embassy",
+                "saudi arabia diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Saudi Arabia at +622129023444 or +622128094000"
+            ]
+        },
+        {
+            "tag": "Canada",
+            "patterns": ["canada", "canada diplomatic", "canada embassy"],
+            "responses": ["Contact Embassy of Canada at +6221-2550-7800"]
+        },
+        {
+            "tag": "Thailand",
+            "patterns": [
+                "thailand",
+                "thailand embassy",
+                "thailand consulate",
+                "thailand diplomatic"
+            ],
+            "responses": [
+                "Contact Embassy of Thailand in Jakarta at +62 21 2932 8190-94 or Honorary Consulate of Thailand in Bali +62361-249461"
+            ]
+        },
+        {
+            "tag": "Italy",
+            "patterns": [
+                "italy",
+                "italy embassy",
+                "italy consulate",
+                "italy diplomatic",
+                "italy consulate general"
+            ],
+            "responses": [
+                " Contact Embassy of Italy in Jakarta at +6221-3193-7445 or \nConsulate General of Italy in Bali at +62361701005"
+            ]
+        }
+    ]
+}
